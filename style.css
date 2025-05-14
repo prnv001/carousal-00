@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container-img {
+    width: 60vw;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: rgb(79, 68, 68)0px 7px 28px 0px;
+    background-image: url("girl.jpg");
+    background-size: cover;
+    animation: photos 25s linear infinite;
+}
+
+@keyframes photos {
+    0% {
+        background-image: url("girl.jpg");
+    }
+
+    20% {
+        background-image: url("pexels-huy-nguy-n-155325534-28174857.jpg");
+    }
+
+    40% {
+        background-image: url("pexels-philippedonn-1133957.jpg");
+    }
+
+    60% {
+        background-image: url("pexels-pixabay-221201.jpg");
+    }
+
+    80% {
+        background-image: url("pexels-urfriendlyphotog-28262878.jpg");
+    }
+}
